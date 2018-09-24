@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-28-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-810.000000, -843.000000)" fill="#000000">
+            <path d="M813.592233,861.5 C813.592233,869.740133 820.261034,876.407767 828.5,876.407767 C836.740133,876.407767 843.407767,869.738876 843.407767,861.5 C843.407767,853.259867 836.738966,846.592233 828.5,846.592233 C820.259867,846.592233 813.592233,853.261124 813.592233,861.5 L813.592233,861.5 Z M847,861.5 C847,871.717299 838.717299,880 828.5,880 C818.282701,880 810,871.717299 810,861.5 C810,851.282701 818.282701,843 828.5,843 C838.717299,843 847,851.282701 847,861.5 L847,861.5 Z M823.466833,853.650791 L826.364238,850.767396 L837.135189,861.589806 L826.364238,872.412306 L823.466833,869.52891 L831.368129,861.589806 L823.466833,853.650791 L823.466833,853.650791 Z" id="arrow-28-icon" sketch:type="MSShapeGroup" transform="translate(828.500000, 861.500000) rotate(90.000000) translate(-828.500000, -861.500000) "></path>
+        </g>
+    </g>
+</svg>

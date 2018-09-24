@@ -1,0 +1,481 @@
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+html {
+    height:100%;
+}
+
+body {
+    margin:0;
+    padding:0;
+    min-height:100%;
+    font-family: 'Lato' 'Open Sans',sans-serif;
+    font-size:16px;
+}
+
+
+/**** Navigation*****/
+
+.navbar {
+    background:transparent;
+}
+
+.navbar.scrolling {
+    background-color: #3c8dbc;
+}
+
+.navbar .nav-link {
+    color:#fff;
+}
+
+.nav-link:hover {
+    color: orange;
+    transition: all 0.5s ease;
+}
+
+.navbar .navbar-toggler {
+    background:transparent;
+
+}
+
+.navbar .navbar-brand {
+    color:#fff;
+}
+
+.navbar .navbar-nav {
+    list-style-type: none;
+}
+
+.navbar .nav-item {
+   margin:0 8px;
+}
+
+.fa.fa-bars {
+    color:#000;
+    border:none;
+}
+
+.dropdown-menu {
+     background: transparent;
+}
+
+
+.dropdown-menu > .dropdown-item:hover {
+    background-color: transparent;
+    color:#f4923e;
+}
+
+.navbar-nav .sign-up-link {
+    
+    border-radius:1px solid #f4923e;
+
+}
+
+.navbar-nav .sign-up-link a {
+    background-color: #f4923e;
+    color:#fff;
+    text-decoration: none;
+    padding:7px 15px;
+}
+
+.navbar-nav .sign-up-link a:hover {
+    background-color:#fff;
+    color:#3c8dbc;
+}
+
+@media only screen and (max-width: 992px) {
+    .extras a {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .extras1 a {
+        text-align: left;
+    }
+}
+
+/*****Header****/
+
+#header {
+    background-image: url('../img/zurich.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    padding-top:150px;
+ }
+
+
+.header-text  {
+    padding-top:150px;
+    position:relative;
+}
+
+.header-text h1 {
+    color:#fff;
+}
+
+.header-text p {
+    color:#fff;
+    font-size:25px;
+}
+
+.hero-text  {
+    text-align: center;
+    color:white;
+}
+
+.header-text .get-started {
+    border:1px solid #fff;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+
+/****HOME*****/
+
+/****Digital Marketing****/
+
+#digital-marketing {
+    padding-top:120px;
+    padding-bottom:120px;
+}
+
+#digital-marketing a {
+    display:block;
+    color:#fff;
+    background-color: #3c8dbc;
+    margin-top:20px;
+    float:left;
+    padding:8px 28px;
+}
+
+#digital-marketing a:hover {
+    opacity:0.9;
+}
+
+
+/****Section-Messaging****/
+
+
+#section-messaging {
+    padding-top:60px;
+    padding-bottom:80px;
+    background-color: #62a3c9;
+}
+
+#section-messaging a {
+    color:#3c8dbc;
+    background-color: #fff;
+    margin-top:70px;
+    padding:8px 28px;
+}
+
+#section-messaging a:hover {
+    opacity: 0.9;
+}
+
+
+.slide-tabs-nas {
+    display: flex;
+    justify-content: center;
+}
+
+.slide-tabs-nas > div {
+    padding: 10px;
+    text-align: center;
+}
+
+.slide-tabs-nas > div:hover {
+    cursor: pointer;
+}
+
+.message-one {
+    display: block;
+    padding:40px 0;
+}
+
+.message-two {
+    display: none;
+    padding:40px 0;
+}
+
+.message-three {
+    display: none;
+    padding:40px 0;
+}
+
+
+/****Feature-Template****/
+
+#template-editor {
+   padding:80px 0;
+}
+
+
+#template-editor a {
+    padding:8px 28px;
+    display:block;
+    color:#fff;
+    background-color: #3c8dbc;
+    margin:0 auto;
+    text-decoration: none;
+    margin-top:100px;
+}
+
+#template-editor a:hover {
+    opacity:0.9;
+}
+
+
+/**** SIGN UP ****/
+
+#sign-up {
+    padding:50px 0;
+    background-color: #62a3c9;
+}
+
+#sign-up .signup-button a {
+    padding:8px 28px;
+    color:#3c8dbc;
+    background-color: #F4F4F4;
+}
+
+#sign-up .signup-button a:hover {
+    opacity: 0.9;
+}
+
+/**** FOOTER ****/
+
+#footer {
+    background-color: #fff;
+    padding-top:40px;
+    padding-bottom:20px;
+}
+
+.tabellarius-rights {
+    margin-top:100px;
+}
+
+#footer a {
+ text-decoration: none;
+}
+
+#footer li a {
+    color:#000;
+}
+
+#footer li a:hover {
+    color:#3c8dbc;
+}
+
+.social img:hover {
+    opacity: 0.5;
+}
+
+/*****pricing*****/
+
+.pricing-heading {
+    padding:150px;
+    background-color: #4f98c2;
+}
+
+.pricing-area {
+    margin-top:80px;
+    margin-bottom:200px;
+    justify-content: center;
+}
+
+.pricing-area ul li {
+    background-color: #F4F4F4;
+}
+
+.pricing-area .card-title {
+    font-size:22px;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 1;
+    color:#474747;
+    transition: color 0.25s ease-in-out;
+}
+
+.table {
+    margin-top:80px;
+}
+
+
+.table  .fa-check {
+    color: #99c672;
+} 
+
+.table  .fa-times {
+    color: #f37c7b;
+}
+
+
+/**** FAQ *****/
+
+
+/* #faq  {
+   background-color: #4f98c2;
+   padding-top:100px;
+   padding-bottom:70px;
+   height:100%;
+} */
+
+.faq-header {
+    padding-top:100px;
+}
+
+#accordion .card-header {
+    background-color: #eff1f3;
+}
+#faq .btn {
+    padding-top:3px;
+    padding-bottom:3px;
+    color:grey;
+    background-color: #f4923e;
+    /* border-radius: 0; */
+    /* position:absolute;
+    top:4%;
+    right:22.5%;
+    background-color: #3c8dbc; */
+}
+
+
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  padding-left:0px;
+}
+
+
+.faq-content {
+    padding-top:80px;
+    padding-bottom:100px;
+    
+}
+
+.faq-content  #accordion {
+    margin-top:50px;
+}
+
+.faq-content .fas {
+    color:#3c8dbc;
+    font-size:13px;
+}
+
+.faq-content .card {
+    border:0;
+    margin-top:2px;
+}
+
+.faq-content .card-header {
+    background-color: #e9ecef;
+
+}
+
+
+#accordion .card-link {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+
+
+.collapsed > a {
+    font-family: FontAwesome;
+    content:"\f068";
+}
+
+
+.faq-content .quick-links {
+   padding-top:50px;
+}
+
+
+/***Privacy***/
+
+.privacy-text {
+  margin:0 auto;
+}
+
+.privacy-text p {
+  text-align: left;
+}
+
+.privacy-text h5 {
+    font-weight: bold;
+    margin:15px 0;
+}
+
+.privacy {
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.privacy p {
+    margin:15px 0;
+}
+
+
+/***Blog****/
+
+.blog {
+    margin-top:150px;
+}
+
+.post {
+    margin-top:150px;
+}
+
+.post-sidebar {
+    margin-top:150px;
+    text-align: center;
+    
+}
+
+.post-main {
+    margin-top:150px;
+}
+
+/*****Support****/
+
+#support {
+    margin-top:150px;
+}
+
+.support-main {
+    margin-bottom:250px;
+}
+
+#support .btn {
+    background-color: #3c8dbc;
+    color:#fff;
+    font-weight: bold;
+}
+
+.support-search .btn {
+    background-color: #99c672;
+    color:#fff;
+    font-weight: bold;
+}
+
+.support-form {
+    padding:20px;
+}
+
+.support-sidebar {
+    padding:20px 0;
+}

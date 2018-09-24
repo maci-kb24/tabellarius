@@ -1,0 +1,106 @@
+
+
+.arrow-down {
+    position: absolute;
+    bottom: 100px;
+    left: 48.1%;
+    -webkit-animation: arrow 2s linear infinite;
+    animation: arrow 2s linear infinite;
+
+}
+
+
+@keyframes arrow {
+    0% {
+        bottom: 100px;
+    }
+
+    50% {
+        bottom: 110px;
+    }
+
+    100% {
+        bottom: 100px;
+    }
+}
+
+
+ /* .message-one { 
+     animation: message-one .30s ease-out 0s 1; 
+ } 
+
+  @keyframes message-one { 
+    0% { 
+       transform: translateX(-100%); 
+       } 
+       100% { 
+         transform: translateX(0);
+        } 
+      } */
+
+
+.message-two {
+    animation: message-two .30s ease-out 0s 1;
+}
+
+@keyframes message-two {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+.message-three {
+    animation: message-three .30s ease-out 0s 1;
+}
+
+@keyframes message-three {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+.message-four {
+    animation: message-four .30s ease-out 0s 1;
+}
+
+@keyframes message-four {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+.message-five {
+    animation: message-five .30s ease-out 0s 1;
+}
+
+@keyframes message-five {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+.message-six {
+    animation: message-six .30s ease-out 0s 1;
+}
+
+@keyframes message-six {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
